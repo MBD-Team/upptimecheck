@@ -14,7 +14,7 @@ sites:
   - name: IPv6 test
     url: forwardemail.net
   - name: mbd-team.de
-    url: https://mbd-team.de/
+    url: https://mbd-team.de
     port: 80
     check: "tcp-ping"
     ipv6: true
