@@ -19,7 +19,8 @@ sites:
     url: https://gymdistrict.de/
   - name: sportbutler
     url: https://sportbutler.team/
-    
+  - name: youtube
+    url: https://www.youtube.com/
     port: 80
     check: "tcp-ping"
     ipv6: true
