@@ -13,8 +13,12 @@ sites:
     url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
     url: forwardemail.net
-  - name: mbd-team.de
-    url: https://mbd-team.de
+  - name: mbd-team
+    url: https://mbd-team.de/
+  - name: gymdistrict
+    url: https://gymdistrict.de/
+  - name: sportbutler
+    url: https://sportbutler.team/
     port: 80
     check: "tcp-ping"
     ipv6: true
