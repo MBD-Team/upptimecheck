@@ -5,17 +5,16 @@ repo: upptimecheck # The name of this repository
 sites:
   - name: mbd-team
     url: https://mbd-team.de/
+    timeout: 10000
   - name: gymdistrict
     url: https://gymdistrict.de/
+    timeout: 10000
   - name: sportbutler
     url: https://sportbutler.team/
+    timeout: 10000
   - name: hüpfburgen-verleih
     url: https://holsteiner-huepfburgenverleih.de/
-  - name: youtube
-    url: https://www.youtube.com/
-    # port: 80
-    # check: "tcp-ping"
-    # ipv6: true
+    timeout: 10000
 
 status-website:
   baseUrl: /upptimecheck # where "repo" is your repository name
