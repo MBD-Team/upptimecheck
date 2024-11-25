@@ -21,9 +21,6 @@ on:
   repository_dispatch:
     types: [uptime]
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Graphs CI"]
-    types: [completed]
 jobs:
   release:
     name: Check status
