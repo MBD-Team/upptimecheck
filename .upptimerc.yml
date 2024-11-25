@@ -13,9 +13,9 @@ sites:
     url: https://holsteiner-huepfburgenverleih.de/
   - name: youtube
     url: https://www.youtube.com/
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+    # port: 80
+    # check: "tcp-ping"
+    # ipv6: true
 
 status-website:
   baseUrl: /upptimecheck # where "repo" is your repository name
