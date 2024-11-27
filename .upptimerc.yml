@@ -20,4 +20,10 @@ status-website:
   name: MBD-Serverstatus
 
 workflowSchedule:
-  setup: "*/5 * * * *"
+  graphs: "*/10 * * * *"
+  responseTime: "*/10 * * * *"
+  staticSite: "*/10 * * * *"
+  summary: "*/10 * * * *"
+  updateTemplate: "*/10 * * * *"
+  updates: "*/10 * * * *"
+  uptime: "*/10 * * * *"
