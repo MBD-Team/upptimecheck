@@ -2,8 +2,9 @@ owner: Sahalandro
 repo: upptimecheck
 
 sites:
-  - name: mbd-team
-    url: https://mbd-team.de/
+  #Production
+  - name: britta-ai
+    url: www.britta-ai.de
     timeout: 10000
   - name: gymdistrict
     url: https://gymdistrict.de/
@@ -14,7 +15,50 @@ sites:
   - name: hüpfburgen-verleih
     url: https://holsteiner-huepfburgenverleih.de/
     timeout: 10000
-
+  - name: ki-helfer-klinik
+    url: ki-helfer-klinik.mbd-team.de
+    timeout: 10000
+  - name: app.ki-helferlein
+    url: app.ki-helferlein.de
+    timeout: 10000
+  - name: ki-helferlein
+    url: ki-helferlein.de
+    timeout: 10000
+  - name: mbd-team
+    url: https://mbd-team.de/
+    timeout: 10000
+  - name: wyngman
+    url: https://wyngman.mbd-team.de/
+    timeout: 10000
+  - name: shiftbutler
+    url: https://shiftbutler.mbd-team.de/
+    timeout: 10000
+  #Staging
+  - name: demo.britta-ai
+    url: demo.britta-ai.de
+    timeout: 10000
+  - name: staging.gymdistrict
+    url: staging.gymdistrict.mbd-team.de
+    timeout: 10000
+  - name: herta.mbd-team
+    url: herta.mbd-team.de
+    timeout: 10000
+  - name: staging.holsteiner-huepfburgenverleih
+    url: staging.holsteiner-huepfburgenverleih.mbd-team.de
+    timeout: 10000
+  - name: staging.ki-helfer-general
+    url: staging.ki-helfer-general.mbd-team.de
+    timeout: 10000
+  - name: staging.mbd-team
+    url: staging.mbd-team.de
+    timeout: 10000
+  - name: staging.sportbutler
+    url: staging.sportbutler.team
+    timeout: 10000
+  - name: staging.wyngman
+    url: staging.wyngman.mbd-team.de
+    timeout: 10000
+    
 status-website:
   baseUrl: /upptimecheck
   name: MBD-Serverstatus
