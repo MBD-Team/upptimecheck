@@ -66,7 +66,7 @@ status-website:
 workflowSchedule:
   graphs: "*/15 * * * *" #updates the graphs
   responseTime: "*/15 * * * *" #records the reponse time of each endpoint and commits it to git history
-  staticSite: "5,*/10 * * * *" #builds and deploys your status page website using GitHub Pages.
+  staticSite: "5,*/15 * * * *" #builds and deploys your status page website using GitHub Pages.
   summary: "2,*/15 * * * *" #updates the README of your project with a summary of the response times and generated graphs.
   updateTemplate: "0 0 * * *" #gets update from upptime
   updates: "0 3 * * *"
