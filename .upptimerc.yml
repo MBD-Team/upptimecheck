@@ -2,7 +2,7 @@ owner: Sahalandro
 repo: upptimecheck
 
 sites:
-  css: ".live-status{display: flex; flex-direction: row; flex-wrap: wrap;}"
+  #css: ".live-status{display: flex; flex-direction: row; flex-wrap: wrap;}"
   #Production
   - name: britta-ai
     url: www.britta-ai.de
