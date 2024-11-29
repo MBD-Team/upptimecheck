@@ -62,7 +62,7 @@ sites:
 status-website:
   baseUrl: /upptimecheck
   name: MBD-Serverstatus
-  css: "body { opacity: 0.5 }"
+  css: ".live-status { opacity: 0.5 }"
   # css: ".live-status svelte-fqsq6s{ background-color: brown }"
 
 workflowSchedule:
