@@ -58,12 +58,11 @@ sites:
   - name: staging.wyngman
     url: staging.wyngman.mbd-team.de
     timeout: 10000
-
-    css: ".live-status svelte-fqsq6s{ background-color: brown }"
     
 status-website:
   baseUrl: /upptimecheck
   name: MBD-Serverstatus
+  css: ".live-status svelte-fqsq6s{ background-color: brown }"
 
 workflowSchedule:
   graphs: "1,*/15 * * * *" #updates the graphs
