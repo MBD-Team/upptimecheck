@@ -2,7 +2,6 @@ owner: Sahalandro
 repo: upptimecheck
 
 sites:
-    css: ".live-status svelte-fqsq6s{ opacity: 0.5 }"
   #Production      display: flex; flex-direction: row; flex-wrap: wrap;
   - name: britta-ai
     url: www.britta-ai.de
@@ -59,6 +58,8 @@ sites:
   - name: staging.wyngman
     url: staging.wyngman.mbd-team.de
     timeout: 10000
+
+    css: ".live-status svelte-fqsq6s{ opacity: 0.5 }"
     
 status-website:
   baseUrl: /upptimecheck
