@@ -59,7 +59,7 @@ sites:
     url: staging.wyngman.mbd-team.de
     timeout: 10000
 
-    css: ".live-status svelte-fqsq6s{ opacity: 0.5 }"
+    css: ".live-status svelte-fqsq6s{ background-color: brown }"
     
 status-website:
   baseUrl: /upptimecheck
