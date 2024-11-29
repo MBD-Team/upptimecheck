@@ -2,8 +2,8 @@ owner: Sahalandro
 repo: upptimecheck
 
 sites:
-  #css: ".live-status{display: flex; flex-direction: row; flex-wrap: wrap;}"
-  #Production
+  css: ".live-status svelte-fqsq6s{ opacity: 0.5 }"
+  #Production      display: flex; flex-direction: row; flex-wrap: wrap;
   - name: britta-ai
     url: www.britta-ai.de
     timeout: 10000
