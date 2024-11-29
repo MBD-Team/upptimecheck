@@ -63,7 +63,7 @@ status-website:
   baseUrl: /upptimecheck
   name: MBD-Serverstatus
   #css: ".live-status { display: flex; flex-wrap: wrap; }"
-  css: ".live-status {display: grid; grid-template-columns: repeat(3, 2fr); grid-template-rows: repeat(7, 2fr); grid-column-gap: 10px; grid-row-gap: 10px;} .container{max-width: 90%}"
+  css: ".live-status {display: grid; grid-template-columns: repeat(3, 3fr); grid-template-rows: repeat(7, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;} .container{max-width: 90%}"
 
 workflowSchedule:
   graphs: "1,*/15 * * * *" #updates the graphs
