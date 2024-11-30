@@ -239,18 +239,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "staging-holsteiner-huepfburgenverleih",
     "status": "down",
-    "uptime": "43.30%",
+    "uptime": "43.03%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "43.30%",
-    "uptimeMonth": "43.30%",
-    "uptimeYear": "43.30%",
+    "uptimeWeek": "43.03%",
+    "uptimeMonth": "43.03%",
+    "uptimeYear": "43.03%",
     "time": 1038,
     "timeDay": 966,
     "timeWeek": 1038,
     "timeMonth": 1038,
     "timeYear": 1038,
     "dailyMinutesDown": {
-      "2024-11-30": 1218,
+      "2024-11-30": 1238,
       "2024-11-29": 627
     }
   },
