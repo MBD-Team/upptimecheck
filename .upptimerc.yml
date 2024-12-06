@@ -49,6 +49,9 @@ sites:
   - name: "Staging: ki-helfer-general.mbd-team.de"
     url: staging.ki-helfer-general.mbd-team.de
     timeout: 10000
+  - name: "Staging: staging.ki-helfer-klinik.mbd-team.de"
+    url: staging.ki-helfer-klinik.mbd-team.de
+    timeout: 10000
   - name: "Staging: mbd-team.de"
     url: staging.mbd-team.de
     timeout: 10000
