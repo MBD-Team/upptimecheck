@@ -3,59 +3,59 @@ repo: upptimecheck
 
 sites:
   #Production      display: flex; flex-direction: row; flex-wrap: wrap;
-  - name: britta-ai
-    url: www.britta-ai.de
+  - name: britta-ai.de
+    url: britta-ai.de
     timeout: 10000
-  - name: gymdistrict
-    url: https://gymdistrict.de/
+  - name: gymdistrict.de
+    url: gymdistrict.de
     timeout: 10000
-  - name: sportbutler
-    url: https://sportbutler.team/
+  - name: sportbutler.team
+    url: sportbutler.team
     timeout: 10000
-  - name: hüpfburgen-verleih
-    url: https://holsteiner-huepfburgenverleih.de/
+  - name: holsteiner-huepfburgenverleih.de
+    url: holsteiner-huepfburgenverleih.de
     timeout: 10000
-  - name: ki-helfer-klinik
+  - name: ki-helfer-klinik.mbd-team.de
     url: ki-helfer-klinik.mbd-team.de
     timeout: 10000
-  - name: app.ki-helferlein
+  - name: app.ki-helferlein.de
     url: app.ki-helferlein.de
     timeout: 10000
-  - name: ki-helferlein
+  - name: ki-helferlein.de
     url: ki-helferlein.de
     timeout: 10000
-  - name: mbd-team
-    url: https://mbd-team.de/
+  - name: mbd-team.de
+    url: mbd-team.de
     timeout: 10000
-  - name: wyngman
-    url: https://wyngman.mbd-team.de/
+  - name: wyngman.mbd-team.de
+    url: wyngman.mbd-team.de
     timeout: 10000
-  - name: shiftbutler
-    url: https://shiftbutler.mbd-team.de/
+  - name: shiftbutler.mbd-team.de
+    url: shiftbutler.mbd-team.de
     timeout: 10000
   #Staging
-  - name: staging.britta-ai
+  - name: Staging: britta-ai.de
     url: demo.britta-ai.de
     timeout: 10000
-  - name: staging.gymdistrict
+  - name: Staging: gymdistrict.mbd-team.de
     url: staging.gymdistrict.mbd-team.de
     timeout: 10000
-  - name: staging.herta
+  - name: Staging: herta.mbd-team.de
     url: staging.herta.mbd-team.de
     timeout: 10000
-  - name: staging.holsteiner-huepfburgenverleih
+  - name: Staging: holsteiner-huepfburgenverleih.mbd-team.de
     url: staging.holsteiner-huepfburgenverleih.mbd-team.de
     timeout: 10000
-  - name: staging.ki-helfer-general
+  - name: Staging: ki-helfer-general.mbd-team.de
     url: staging.ki-helfer-general.mbd-team.de
     timeout: 10000
-  - name: staging.mbd-team
+  - name: Staging: mbd-team.de
     url: staging.mbd-team.de
     timeout: 10000
-  - name: staging.sportbutler
+  - name: Staging: sportbutler.team
     url: staging.sportbutler.team
     timeout: 10000
-  - name: staging.wyngman
+  - name: Staging: wyngman.mbd-team.de
     url: staging.wyngman.mbd-team.de
     timeout: 10000
     
