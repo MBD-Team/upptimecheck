@@ -3,10 +3,10 @@ repo: upptimecheck
 
 sites:
   #Production      display: flex; flex-direction: row; flex-wrap: wrap;
-  - name: britta-ai.de
+  - name: "britta-ai.de"
     url: britta-ai.de
     timeout: 10000
-  - name: gymdistrict.de
+  - name: "gymdistrict.de"
     url: gymdistrict.de
     timeout: 10000
   - name: sportbutler.team
@@ -34,28 +34,28 @@ sites:
     url: shiftbutler.mbd-team.de
     timeout: 10000
   #Staging
-  - name: Staging: britta-ai.de
+  - name: "Staging: britta-ai.de"
     url: demo.britta-ai.de
     timeout: 10000
-  - name: Staging: gymdistrict.mbd-team.de
+  - name: "Staging: gymdistrict.mbd-team.de"
     url: staging.gymdistrict.mbd-team.de
     timeout: 10000
-  - name: Staging: herta.mbd-team.de
+  - name: "Staging: herta.mbd-team.de"
     url: staging.herta.mbd-team.de
     timeout: 10000
-  - name: Staging: holsteiner-huepfburgenverleih.mbd-team.de
+  - name: "Staging: holsteiner-huepfburgenverleih.mbd-team.de"
     url: staging.holsteiner-huepfburgenverleih.mbd-team.de
     timeout: 10000
-  - name: Staging: ki-helfer-general.mbd-team.de
+  - name: "Staging: ki-helfer-general.mbd-team.de"
     url: staging.ki-helfer-general.mbd-team.de
     timeout: 10000
-  - name: Staging: mbd-team.de
+  - name: "Staging: mbd-team.de"
     url: staging.mbd-team.de
     timeout: 10000
-  - name: Staging: sportbutler.team
+  - name: "Staging: sportbutler.team"
     url: staging.sportbutler.team
     timeout: 10000
-  - name: Staging: wyngman.mbd-team.de
+  - name: "Staging: wyngman.mbd-team.de"
     url: staging.wyngman.mbd-team.de
     timeout: 10000
     
