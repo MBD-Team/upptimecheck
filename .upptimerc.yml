@@ -41,7 +41,7 @@ sites:
     url: staging.gymdistrict.mbd-team.de
     timeout: 10000
   - name: staging.herta
-    url: herta.mbd-team.de
+    url: staging.herta.mbd-team.de
     timeout: 10000
   - name: staging.holsteiner-huepfburgenverleih
     url: staging.holsteiner-huepfburgenverleih.mbd-team.de
