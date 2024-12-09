@@ -4,34 +4,34 @@ repo: upptimecheck
 sites:
   #Production      display: flex; flex-direction: row; flex-wrap: wrap;
   - name: "britta-ai.de"
-    url: britta-ai.de
+    url: https://britta-ai.de/
     timeout: 10000
   - name: "gymdistrict.de"
-    url: gymdistrict.de
+    url: https://gymdistrict.de/
     timeout: 10000
   - name: "sportbutler.team"
-    url: sportbutler.team
+    url: https://sportbutler.team/
     timeout: 10000
   - name: "holsteiner-huepfburgenverleih.de"
-    url: holsteiner-huepfburgenverleih.de
+    url: https://holsteiner-huepfburgenverleih.de/
     timeout: 10000
   - name: "ki-helfer-klinik.mbd-team.de"
-    url: ki-helfer-klinik.mbd-team.de
+    url: https://ki-helfer-klinik.mbd-team.de/
     timeout: 10000
   - name: "app.ki-helferlein.de"
-    url: app.ki-helferlein.de
+    url: https://app.ki-helferlein.de/
     timeout: 10000
   - name: "ki-helferlein.de"
-    url: ki-helferlein.de
+    url: https://ki-helferlein.de/
     timeout: 10000
   - name: "mbd-team.de"
-    url: mbd-team.de
+    url: https://mbd-team.de/
     timeout: 10000
   - name: "wyngman.mbd-team.de"
-    url: wyngman.mbd-team.de
+    url: https://wyngman.mbd-team.de/
     timeout: 10000
   - name: "shiftbutler.mbd-team.de"
-    url: shiftbutler.mbd-team.de
+    url: https://shiftbutler.mbd-team.de/
     timeout: 10000
   #Client
   - name: "Client: allcon-import.de"
