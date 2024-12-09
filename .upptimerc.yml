@@ -67,7 +67,7 @@ status-website:
   name: MBD-Serverstatus
   css: ".live-status {display: grid; grid-template-columns: repeat(3, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;} .container{max-width: 90%} article + article {margin-top: 0px}"
   js: "const h2= document.createElement('h2'); h2.innerHTML='Staging';  const grid= document.createElement('grid'); grid.style = 'display: grid; grid-template-columns: repeat(3, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;';"
-  js: "document.querySelector('.live-status').parentElement.appendChild(h2); document.querySelector('.live-status').parentElement.appendChild(grid);"
+    js: "document.querySelector('.live-status').parentElement.appendChild(h2); document.querySelector('.live-status').parentElement.appendChild(grid);"
 workflowSchedule:
   graphs: "1,*/15 * * * *" #updates the graphs
   responseTime: "*/15 * * * *" #records the reponse time of each endpoint and commits it to git history
