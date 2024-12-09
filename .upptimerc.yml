@@ -66,7 +66,7 @@ status-website:
   baseUrl: /upptimecheck
   name: MBD-Serverstatus
   css: ".live-status {display: grid; grid-template-columns: repeat(3, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;} .container{max-width: 90%} article + article {margin-top: 0px}"
-  js: "const h2= document.createElement('h2'); h2.innerHTML='Staging';  const grid= document.createElement('grid'); grid.style = 'display: grid; grid-template-columns: repeat(3, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;'; document.querySelector('.live-status').parentElement.appendChild(h2); document.querySelector('.live-status').parentElement.appendChild(grid);"
+  js: "const h2= document.createElement('h2'); h2.innerHTML='Staging';  const grid= document.createElement('grid'); grid.style = 'display: grid; grid-template-columns: repeat(3, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;'; setTimeout(() => {document.querySelector('.live-status').parentElement.appendChild(h2); document.querySelector('.live-status').parentElement.appendChild(grid);}, 1000); "
   
 workflowSchedule:
   graphs: "1,*/15 * * * *" #updates the graphs
