@@ -33,6 +33,34 @@ sites:
   - name: "shiftbutler.mbd-team.de"
     url: shiftbutler.mbd-team.de
     timeout: 10000
+  #Client
+  - name: "Client: allcon-import.de"
+    url: https://www.allcon-import.de/
+    timeout: 10000
+  - name: "Client: bieter.elbeholz.de"
+    url: https://bieter.elbeholz.de/
+    timeout: 10000
+  - name: "Client: www.elbeholz.net"
+    url: https://www.elbeholz.net/
+    timeout: 10000
+  - name: "Client: moebeltischlerei-will.de"
+    url: https://moebeltischlerei-will.de/
+    timeout: 10000
+  - name: "Client: woelke-sh.de"
+    url: https://woelke-sh.de/
+    timeout: 10000
+  - name: "Client: pokale-pur.de"
+    url: https://pokale-pur.de/
+    timeout: 10000
+  - name: "Client: www.kieler-friedensforum.de"
+    url: https://www.kieler-friedensforum.de/
+    timeout: 10000
+  - name: "Client: trede-walddienst.de"
+    url: https://trede-walddienst.de/
+    timeout: 10000
+  - name: "Client: blumen-für-gudendorf.de"
+    url: https://xn--blumen-fr-gudendorf-dbc.de/
+    timeout: 10000
   #Staging
   - name: "Staging: britta-ai.de"
     url: demo.britta-ai.de
