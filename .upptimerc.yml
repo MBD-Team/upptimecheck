@@ -66,9 +66,6 @@ status-website:
   baseUrl: /upptimecheck
   name: MBD-Serverstatus
   css: ".live-status {display: grid; grid-template-columns: repeat(3, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;} .container{max-width: 90%} article + article {margin-top: 0px}"
-  js: "const h2= document.createElement('h2')"
-  js: "h2.innerHTML="Staging""
-  js: "document.querySelector(".live-status").parentElement.appendChild(h2)"
 
 workflowSchedule:
   graphs: "1,*/15 * * * *" #updates the graphs
