@@ -490,19 +490,19 @@
     "url": "staging.wyngman.mbd-team.de",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "staging-wyngman-mbd-team-de",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 1363,
-    "timeDay": 1373,
-    "timeWeek": 1363,
-    "timeMonth": 1363,
-    "timeYear": 1363,
+    "status": "up",
+    "uptime": "99.60%",
+    "uptimeDay": "98.45%",
+    "uptimeWeek": "99.60%",
+    "uptimeMonth": "99.60%",
+    "uptimeYear": "99.60%",
+    "time": 1364,
+    "timeDay": 1375,
+    "timeWeek": 1364,
+    "timeMonth": 1364,
+    "timeYear": 1364,
     "dailyMinutesDown": {
-      "2024-12-10": 0
+      "2024-12-10": 22
     }
   }
 ]
