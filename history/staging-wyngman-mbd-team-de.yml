@@ -1,7 +1,7 @@
 url: staging.wyngman.mbd-team.de
 status: down
-code: 404
-responseTime: 1063
-lastUpdated: 2024-12-19T15:50:54.288Z
+code: 502
+responseTime: 879
+lastUpdated: 2024-12-19T16:18:52.017Z
 startTime: 2024-12-06T11:32:36.924Z
 generator: Upptime <https://github.com/upptime/upptime>
