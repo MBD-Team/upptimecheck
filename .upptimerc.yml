@@ -2,7 +2,7 @@ owner: MBD-Team
 repo: upptimecheck
 
 sites:
-  #Production      display: flex; flex-direction: row; flex-wrap: wrap;
+  #Production
   - name: "britta-ai.de"
     url: https://britta-ai.de/
     timeout: 10000
