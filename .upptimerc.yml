@@ -33,6 +33,9 @@ sites:
   - name: "shiftbutler.mbd-team.de"
     url: https://shiftbutler.mbd-team.de/
     timeout: 10000
+  - name: "herta.mbd-team.de"
+    url: https://herta.mbd-team.de/
+    timeout: 10000
   #Client
   - name: "Client: allcon-import.de"
     url: https://www.allcon-import.de/
@@ -77,7 +80,7 @@ sites:
   - name: "Staging: ki-helfer-general.mbd-team.de"
     url: staging.ki-helfer-general.mbd-team.de
     timeout: 10000
-  - name: "Staging: staging.ki-helfer-klinik.mbd-team.de"
+  - name: "Staging: ki-helfer-klinik.mbd-team.de"
     url: staging.ki-helfer-klinik.mbd-team.de
     timeout: 10000
   - name: "Staging: mbd-team.de"
