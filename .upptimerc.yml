@@ -58,9 +58,6 @@ sites:
   - name: "Client: www.kieler-friedensforum.de"
     url: https://www.kieler-friedensforum.de/
     timeout: 10000
-  - name: "Client: trede-walddienst.de"
-    url: https://trede-walddienst.de/
-    timeout: 10000
   - name: "Client: blumen-für-gudendorf.de"
     url: https://xn--blumen-fr-gudendorf-dbc.de/
     timeout: 10000
