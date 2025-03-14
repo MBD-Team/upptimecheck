@@ -84,10 +84,10 @@ status-website:
   css: ".live-status {display: grid; grid-template-columns: repeat(4, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;} .container{max-width: 90%} article + article {margin-top: 0px} h2{margin-top: 32px}"
   js: "const h2= document.createElement('h2'); h2.innerHTML='Staging';  const grid= document.createElement('grid'); grid.style = 'display: grid; grid-template-columns: repeat(4, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;'; const Client= document.createElement('h2'); Client.innerHTML='Clients'; const grid2= document.createElement('grid2'); grid2.style = 'display: grid; grid-template-columns: repeat(4, 3fr); grid-column-gap: 5px; grid-row-gap: 5px;'; setTimeout(() => {document.querySelector('.live-status').parentElement.appendChild(Client); document.querySelector('.live-status').parentElement.appendChild(grid); Array.from(document.querySelectorAll('article.graph')).filter((s)=>s.innerText.includes('Client:')).forEach(e=>document.querySelector('grid').appendChild(e)); document.querySelector('.live-status').parentElement.appendChild(h2); document.querySelector('.live-status').parentElement.appendChild(grid2); Array.from(document.querySelectorAll('article.graph')).filter((s)=>s.innerText.includes('Staging:')).forEach(e=>document.querySelector('grid2').appendChild(e)); document.querySelector('.live-status').parentElement.appendChild(document.querySelector('.svelte-18y4uo2').parentElement)}, 2000); setInterval(() => {window.location.reload();}, 600000);"
 workflowSchedule:
-  graphs: "1,*/15 * * * *" #updates the graphs
-  responseTime: "*/15 * * * *" #records the reponse time of each endpoint and commits it to git history
-  staticSite: "5,*/15 * * * *" #builds and deploys your status page website using GitHub Pages.
-  summary: "2,*/15 * * * *" #updates the README of your project with a summary of the response times and generated graphs.
-  updateTemplate: "0 0 * * *" #gets update from upptime
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *" #checks if your websites are up. If they are down, it creates a new issue in your repository.
+  graphs: "2/20 * * * *" #updates the graphs
+  responseTime: "4/20 * * * *" #records the reponse time of each endpoint and commits it to git history
+  staticSite: "8/20 * * * *" #builds and deploys your status page website using GitHub Pages.
+  summary: "6/20 * * * *" #updates the README of your project with a summary of the response times and generated graphs.
+  updateTemplate: "45 0 * * *" #gets update from upptime
+  updates: "45 3 * * *"
+  uptime: "*/20 * * * *" #checks if your websites are up. If they are down, it creates a new issue in your repository.
