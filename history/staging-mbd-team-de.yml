@@ -1,7 +1,7 @@
 url: staging.mbd-team.de
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-30T18:50:30.658Z
+status: up
+code: 200
+responseTime: 1214
+lastUpdated: 2025-04-30T19:04:44.077Z
 startTime: 2024-12-06T11:32:34.178Z
 generator: Upptime <https://github.com/upptime/upptime>
