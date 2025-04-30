@@ -1,7 +1,7 @@
 url: staging.gymdistrict.mbd-team.de
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-30T18:50:27.385Z
+status: up
+code: 200
+responseTime: 1535
+lastUpdated: 2025-04-30T19:04:26.546Z
 startTime: 2024-12-06T11:32:28.422Z
 generator: Upptime <https://github.com/upptime/upptime>
