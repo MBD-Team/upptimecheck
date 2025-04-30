@@ -1,7 +1,7 @@
 url: staging.holsteiner-huepfburgenverleih.mbd-team.de
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-30T18:50:28.689Z
+status: up
+code: 200
+responseTime: 1518
+lastUpdated: 2025-04-30T19:04:33.772Z
 startTime: 2024-12-06T11:32:31.314Z
 generator: Upptime <https://github.com/upptime/upptime>
