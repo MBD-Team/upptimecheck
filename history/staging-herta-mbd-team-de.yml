@@ -1,7 +1,7 @@
 url: staging.herta.mbd-team.de
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-30T18:50:28.028Z
+status: up
+code: 200
+responseTime: 1515
+lastUpdated: 2025-04-30T19:04:30.281Z
 startTime: 2024-12-06T11:32:29.707Z
 generator: Upptime <https://github.com/upptime/upptime>
